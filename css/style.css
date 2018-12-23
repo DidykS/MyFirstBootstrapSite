@@ -1,0 +1,38 @@
+html,body,header, #intro{
+	height: 100%;
+}
+
+hr{
+background-color:white;	
+}
+
+#intro {
+	background: url(../img/1.jpeg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.hovereffect img {
+display:block;
+position:relative;
+-webkit-transition:all .4s linear;
+transition:all .4s linear;
+}
+
+.hovereffect:hover img {
+-ms-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+}
+
+.navbar-dark.scrolled{
+  background:#24335c;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+footer {
+	background: #24335c;
+}
